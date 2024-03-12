@@ -1,0 +1,27 @@
+
+.flex-item
+{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.item1
+{
+    background-color: rgb(17, 97, 66);
+}
+.item2
+{
+    background-color: rgb(216, 17, 100);
+}
+.item3
+{
+    background-color: rgb(177, 230, 134);
+}
+.item4
+{
+    background-color: rgb(147, 165, 224);
+}
+.item5
+{
+    background-color: rgb(219, 117, 117);
+}

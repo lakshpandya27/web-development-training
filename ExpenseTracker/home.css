@@ -1,0 +1,316 @@
+.container1
+{
+    border-radius: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+img{
+    border-radius: 20px;
+}
+
+.container
+{
+    position: sticky;
+    top:0;
+    background-color: rgb(18, 89, 122);
+ display: flex;
+ justify-content: space-between;
+ border-radius: 20px;
+}
+.container2
+{
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a{
+    color: rgb(10, 219, 45);
+    padding-left: 30px;
+}
+.center
+{
+    display: flex;
+    border-radius: 20px;
+    justify-content:space-between;
+   }
+   body{
+    background-image: url(bgg.jfif);
+   }
+#phn
+{
+    padding-right: 100px;
+}
+
+p{
+    
+    color: rgb(217, 240, 154);
+}
+.container2 a
+{
+    text-decoration: none;
+    color: rgb(231, 202, 186);
+}
+.img a
+{
+    text-decoration: none;
+    color: rgb(243, 241, 130);
+}
+.about
+{
+    height: 300px;
+}
+
+
+.heading
+{
+
+    text-align: center;
+    margin:20px;
+}
+
+
+.containera
+{
+    width:90%;
+    margin:0 auto;
+    padding:10px 20px;
+}
+.abouta
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.aboutimg
+{
+    flex:1;
+    margin-right:40px;
+    overflow:hidden;
+}
+.aboutimg img
+{
+    max-width:100%;
+    height: auto;
+    display:block;
+    transition:0.5s ease;
+    border-radius: 10px;
+}
+.aboutcontent
+{
+   
+    flex:1;
+}
+.aboutcontent h2{
+    font-size: 23px;
+    margin-bottom:15px;
+    color:#333;
+}
+.aboutcontent p{
+    font-size: 18px;
+    line-height: 1.5;
+    color:#666;
+}
+
+
+
+
+ .containers
+ {
+    padding-top: 30px;
+    width:90%;
+    height: 80vh;
+    margin: auto;
+   
+ }
+ .section-heading
+ {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+   
+    
+ }
+
+ .services-cards
+ {
+    display:flex ;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    align-items: center;
+ }
+ .services-card
+ {
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition:0.5s ease ;
+ }
+ .services-card:hover
+ {
+    transform:translateY(-20px) ;
+ }
+ .services-card i
+ {
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #3498db;
+ }
+ .services-card h2
+ {
+    font-size: 24px;
+    margin-bottom: 10px;
+ }
+ .services-card p
+ {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.5;
+ }
+
+  
+  
+
+body{
+    font-family: 'Roboto' , sans-serif;
+    line-height: 1.5;
+}
+.cont1
+{
+    height: 60vh;
+    background: linear-gradient(rgba(83, 83, 64, 0.5),rgba(94, 92, 92, 0.8));
+    background-image: url('snapedit_1709356981825.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line div{
+    margin:0 0.2rem;
+}
+.line div:nth-child(1),
+.line div:nth-child(3)
+{
+    height: 3px;
+    width: 70px;
+    background: #f7327a;
+    border-radius: 5px;
+}
+
+.line
+{
+    display: flex;
+    align-items: center;
+}
+
+.line div:nth-child(2)
+{
+    width: 10px;
+    height: 10px;
+    background:#f7327a;
+    border-radius: 50%;
+}
+
+.text
+{
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.details
+{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+
+}
+.details1
+{
+    margin: 2rem 0;
+    text-align: center;
+    padding: 2rem 0;
+}
+.details1 span
+{
+    display: block;
+}
+.details1 div
+{
+    margin: 0.8rem 0;
+    padding: 1rem;
+}
+
+.details1 span .fas
+{
+    font-size: 2rem;
+    padding-bottom: 0.9rem;
+    color: #f7327a;
+}
+
+.details1 div span:nth-child(2)
+{
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.details .text
+{
+    padding-top: 0.4rem;
+}
+.details{
+    padding: 2rem 0;
+   
+}
+.details div
+{
+    margin: 0.8rem 0;
+    padding: 1rem;
+}
+.cont1 h3
+{
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.cont1 h2
+{
+    font-size: 3rem;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+
+}
+.cont1 p
+{
+    font-weight: 300;
+    opacity: 0.7;
+    margin:2rem 0;
+    
+}
+
+
+.details
+{
+    margin: 2rem 0;
+    text-align: center;
+    padding: 4rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+span{
+    color: #f7327a;
+}

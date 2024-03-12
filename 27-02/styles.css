@@ -1,0 +1,65 @@
+.external{
+    color:blue;
+}
+.clsselector{
+    color:chartreuse;
+}
+#idselector{
+    color:cornflowerblue;
+}
+
+.bg-div1{
+    background-color: aquamarine;
+    color:chocolate;
+}
+.bg-spn{
+    background-color: bisque;
+    color:darkgoldenrod;
+}
+
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: wavy;
+}
+
+ul{
+    list-style-type:disc;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    border:2px solid blue;
+    height:50px;width:300px;
+    padding:15px;margin:40px;
+    text-align: center;
+}
+
+.container h1{
+    color: rgba(126,200,215,0.8);
+}
+
+
+table{
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+}
+
+th,td{
+    border: 2px solid brown;
+    padding: 15px;
+}
+
+.static
+{
+    border: 2px solid black;
+    margin:0%;
+    padding: 0%;
+    background-color:chartreuse;
+    color:rgba(126,200,215,0.8);
+}

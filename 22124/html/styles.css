@@ -1,0 +1,16 @@
+h3{
+    color:blue;
+}
+
+*{
+    color:red;
+}
+
+.err
+{
+    color:violet;
+}
+.succ
+{
+    color:green;
+}

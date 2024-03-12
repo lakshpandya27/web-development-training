@@ -1,0 +1,31 @@
+.header-cont
+{
+    border: 5px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-items
+{
+    text-align: center;
+    padding: 2rem;
+    font-size: 20px;
+}
+.logo
+{
+    background-color:aliceblue;
+}
+.nav-cont
+{
+    background-color:aliceblue;
+    flex-basis: 1500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-items
+{
+    text-align: center;
+    padding: 2rem;
+    font-size: 20px;
+}

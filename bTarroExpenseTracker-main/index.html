@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Simple Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <h1>Simple Expense Tracker</h1>
+    <div id="app-container">
+      <div id="input-container">
+        <form id="form">
+          <div class="inputWrapper">
+            <h3>Date</h3>
+            <input class="input" id="expense-date" type="date" required />
+          </div>
+          <div class="inputWrapper">
+            <h3>Item</h3>
+            <input
+              class="input"
+              id="expense-description"
+              type="text"
+              required
+            />
+          </div>
+
+          <div class="inputWrapper">
+            <h3>Location</h3>
+            <input class="input" id="expense-location" type="text" required />
+          </div>
+
+          <div class="inputWrapper">
+            <h3>Amount</h3>
+            <input
+              class="input"
+              id="expense-amount"
+              type="number"
+              required
+            />
+          </div>
+          <div id="submitWrapper">
+            <button id="submit-expense">Submit</button>
+          </div>
+
+        </form>
+      </div>
+      <br />
+      <div id="expense-table">
+        <table>
+          <thead>
+            <tr>
+              <th class="date">Date</th>
+              <th class="description">Description</th>
+              <th class="location">Location</th>
+              <th class="amount">Amount</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="tracker-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
