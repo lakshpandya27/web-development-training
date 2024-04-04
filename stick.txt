@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="300" height="450" style="border:1px solid #000000;">
+</canvas>
+
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+ctx.beginPath();
+ctx.arc(150,50,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(130,40,4,0,2*Math.PI);
+ctx.fillStyle="black";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(160,40,4,0,2*Math.PI);
+ctx.fillStyle="black";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(150,60,15,0,Math.PI);
+ctx.stroke();
+
+ctx.moveTo(150,90);
+ctx.lineTo(150,200);
+ctx.stroke();
+
+ctx.moveTo(150,200);
+ctx.lineTo(100,300);
+ctx.stroke();
+
+ctx.moveTo(150,200);
+ctx.lineTo(200,300);
+ctx.stroke();
+
+ctx.moveTo(150,100);
+ctx.lineTo(100,200);
+ctx.stroke();
+
+ctx.moveTo(150,100);
+ctx.lineTo(200,200);
+ctx.strokeStyle="blue";
+ctx.stroke();
+
+
+
+</script>
+
+</body>
+</html>
